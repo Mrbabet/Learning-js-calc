@@ -10,41 +10,34 @@
     <div class="calculator">
       <div class="calculator-wrapper">
         <div class="display">
-          <td><input type="text" id="textval" /></td>
+          <div class="previous-calc">1</div>
+          <div class="current-calc">100</div>
         </div>
         <div class="keyboard">
-          <tr>
-            <td><input type="button" value="7" onclick="display('7')" /></td>
-            <td><input type="button" value="8" onclick="display('8')" /></td>
-            <td><input type="button" value="9" onclick="display('9')" /></td>
-            <td><input type="button" value="+" onclick="display('+')" /></td>
-          </tr>
-
-          <tr>
-            <td><input type="button" value="4" onclick="display('4')" /></td>
-            <td><input type="button" value="5" onclick="display('5')" /></td>
-            <td><input type="button" value="6" onclick="display('6')" /></td>
-            <td><input type="button" value="-" onclick="display('-')" /></td>
-          </tr>
-
-          <tr>
-            <td><input type="button" value="1" onclick="display('1')" /></td>
-            <td><input type="button" value="2" onclick="display('2')" /></td>
-            <td><input type="button" value="3" onclick="display('3')" /></td>
-            <td><input type="button" value="*" onclick="display('*')" /></td>
-          </tr>
-
-          <tr>
-            <td><input type="button" value="0" onclick="display('0')" /></td>
-            <td><input type="button" value="." onclick="display('.')" /></td>
-            <td><input type="button" value="/" onclick="display('/')" /></td>
-            <td><input type="button" value="=" onclick="evaluate()" /></td>
-          </tr>
-          <td>
-            <input class="clear" type="button" value="C" onclick="clr()" />
-          </td>
+          <button class="clear col-two">AC</button>
+          <button class="del">DEL</button>
+          <button class="operator">√</button>
+          <button class="operator">÷</button>
+          <button class="liczba">1</button>
+          <button class="liczba">2</button>
+          <button class="liczba">3</button>
+          <button class="operator">^</button>
+          <button class="operator">&times</button>
+          <button class="liczba">4</button>
+          <button class="liczba">5</button>
+          <button class="liczba">6</button>
+          <button class="operator">%</button>
+          <button class="operator">-</button>
+          <button class="liczba">7</button>
+          <button class="liczba">8</button>
+          <button class="liczba">9</button>
+          <button class="operator">log</button>
+          <button class="operator row-two">+</button>
+          <button class="liczba">•</button>
+          <button class="liczba">0</button>
+          <button class="operator col-two">=</button>
         </div>
-      </div>
+      
     </div>
     <script src="app.js"></script>
   </body>
